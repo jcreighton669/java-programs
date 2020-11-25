@@ -1,8 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Copyright 2020 Justin Allen Creighton
  */
+
 package program;
 import java.util.Random;
 import java.io.*;
@@ -258,7 +257,7 @@ public class Program {
         int firstNumber = RPGCharacter.rollDice(12);
         int secondNumber = RPGCharacter.rollDice(9);
         int thirdNumber = RPGCharacter.rollDice(9);
-        System.out.println("Enter your name: ");
+        System.out.println("Enter your characters name (optional): ");
         String name = Keyboard.readLine();
         myChar.name = name;
         System.out.println("=====================================");
